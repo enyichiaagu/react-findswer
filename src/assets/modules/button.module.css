@@ -1,0 +1,9 @@
+.btnGoBack {
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btnGoBack:hover {
+    color: #3399ff;
+    transition: all 0.3s;
+}
