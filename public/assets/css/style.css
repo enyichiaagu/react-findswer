@@ -1,0 +1,7 @@
+.md-form.md-bg input[type="text"] {
+    background: #192734 no-repeat;
+}
+.md-form.md-bg input[type="text"]:focus {
+    background-color: #192734;
+    color: #fff;
+}
