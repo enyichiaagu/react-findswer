@@ -6,7 +6,6 @@ import './assets/root_css/index.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from '././assets/production/serviceWorker';
 
-
 ReactDOM.render(
   <React.StrictMode>
       <Router>
