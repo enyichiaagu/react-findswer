@@ -61,6 +61,8 @@ function Login() {
     return (
         <React.Fragment>
             <Wrapper>
+            <h1 class="my-element text-light">An animated element</h1>
+
                 <LOGINheader />
                     { next.count === 0 &&
 
