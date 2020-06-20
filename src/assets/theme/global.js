@@ -41,6 +41,28 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.text};
   }
   
+  .btn-outline-default {
+    color: ${({ theme }) => theme.btnColor};
+    background-color: transparent !important;
+    border: 2px solid ${({ theme }) => theme.btnBorder} !important
+  }
+  .btn-outline-default:hover,
+  .btn-outline-default:focus,
+  .btn-outline-default:active,
+  .btn-outline-default:active:focus,
+  .btn-outline-default.active {
+      color: ${({ theme }) => theme.btnColor};
+      background-color: transparent !important;
+      border: 2px solid ${({ theme }) => theme.btnBorder} !important
+  }
+  .btn-outline-default:not([disabled]):not(.disabled):active,
+  .btn-outline-default:not([disabled]):not(.disabled).active,
+  .show>.btn-outline-default.dropdown-toggle {
+      background-color: transparent !important;
+      border-color: ${({ theme }) => theme.btnDefaultColor} !important;
+      -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+  }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;

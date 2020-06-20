@@ -12,8 +12,14 @@ export const lightTheme = {
 
 export const darkTheme = {
     body: '#15202b',
-    btnBackground:  '#f50057 ',
     text: '#ccc',
+
+    //Button
+    btnDefaultColor: '#f50057',
+    btnBackground:  '#f50057 ',
+    btnBorder: '#f50057',
+    btnColor: '#f50057 !important',
+    
     toggleBorder: '#6B8096',
     gradient: 'linear-gradient(#091236, #1E215D)',
 }
