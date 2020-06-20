@@ -4,6 +4,7 @@ import React, { useState, useContext } from 'react'
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './assets/theme/theme';
 import { GlobalStyles } from './assets/theme/global';
+import Login from './pages/Login/Login';
 
 function App({children}) {
     const [theme, setTheme] = useState('light');
@@ -17,10 +18,7 @@ function App({children}) {
                 <GlobalStyles />
 
                 <button onClick={toggleTheme} className="btn">Toggle theme</button>
-                <h1>It's a light theme!</h1>
-                <footer>
-                    fff
-                </footer>
+                <Login/>
 
             </ThemeProvider>
         </React.Fragment>
