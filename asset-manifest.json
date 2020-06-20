@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/react-findswer/static/js/main.dab7974e.chunk.js",
+    "main.js.map": "/react-findswer/static/js/main.dab7974e.chunk.js.map",
+    "runtime-main.js": "/react-findswer/static/js/runtime-main.ad7dbacb.js",
+    "runtime-main.js.map": "/react-findswer/static/js/runtime-main.ad7dbacb.js.map",
+    "static/js/2.a9e1f9fd.chunk.js": "/react-findswer/static/js/2.a9e1f9fd.chunk.js",
+    "static/js/2.a9e1f9fd.chunk.js.map": "/react-findswer/static/js/2.a9e1f9fd.chunk.js.map",
+    "index.html": "/react-findswer/index.html",
+    "precache-manifest.aaaf51bca7b5daf5e4c878ae37f796c4.js": "/react-findswer/precache-manifest.aaaf51bca7b5daf5e4c878ae37f796c4.js",
+    "service-worker.js": "/react-findswer/service-worker.js",
+    "static/js/2.a9e1f9fd.chunk.js.LICENSE.txt": "/react-findswer/static/js/2.a9e1f9fd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad7dbacb.js",
+    "static/js/2.a9e1f9fd.chunk.js",
+    "static/js/main.dab7974e.chunk.js"
+  ]
+}
