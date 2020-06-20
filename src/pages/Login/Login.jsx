@@ -1,16 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Wrapper } from './Login/Wrapper'
-import { 
-    BUTTONnext,
-    INPUTpassword, 
-    INPUTusername, 
-    INPUTcheckbox, 
-    FORGOTpassword, 
-    LOGINheader } from './Login/Components';
+import { BUTTONnext, INPUTpassword,  INPUTusername, 
+         INPUTcheckbox, FORGOTpassword, LOGINheader } from './Login/Components';
 import { useForm } from 'react-hook-form';
-
-import { useRecoilState } from 'recoil';
-import { GlobalLoader } from './../../state/Recoil';
 
     const txtInput = {
         color: "#ccc"
@@ -27,7 +19,6 @@ import { GlobalLoader } from './../../state/Recoil';
     }
 
 function Login() {
-    const [ , setLoader] = useRecoilState(GlobalLoader);
     const { register } = useForm();
     const [next, setNext] = useState({
         loader: false,
@@ -46,12 +37,9 @@ function Login() {
     }, [next.count])
 
     const moveHandler = () => {
-        setLoader(prevState => !prevState)
-
         if(next.count === 0) {
             // setNext(prev => ({...prev, loader: true }))
             setTimeout(() => {
-                setLoader(prevState => !prevState)
                 setNext(prev => ({
                     ...prev,
                     count: next.count + 1,
@@ -75,6 +63,7 @@ function Login() {
             <Wrapper>
                 <LOGINheader />
                     { next.count === 0 &&
+
                       <div className="md-form md-bg input-with-pre-icon">
                             <INPUTusername inputReference={register} style={txtInput} />
                       </div> }
