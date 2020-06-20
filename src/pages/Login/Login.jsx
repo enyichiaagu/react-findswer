@@ -43,7 +43,7 @@ function Login() {
                 setNext(prev => ({
                     ...prev,
                     count: next.count + 1,
-                    label: 'ENTER',
+                    label: 'NEXT',
                     loader: false
                 }))
             }, 1000)
@@ -61,15 +61,12 @@ function Login() {
     return (
         <React.Fragment>
             <Wrapper>
-            <h1 class="my-element text-light">An animated element</h1>
 
-                <LOGINheader />
+                    <LOGINheader />
                     { next.count === 0 &&
-
                       <div className="md-form md-bg input-with-pre-icon">
                             <INPUTusername inputReference={register} style={txtInput} />
                       </div> }
-
 
                     {  next.count === 1 && 
                         <div className="md-form md-bg input-with-pre-icon" style={txtInputPassword}>
@@ -79,9 +76,11 @@ function Login() {
                                 style={txtInput} />
                         </div>}
 
-                    <div className="d-flex justify-content-between">
-                        <INPUTcheckbox style={subInput} label={label}/>
-                        <FORGOTpassword style={subInput}/>
+                    <div className="login-option-wapper">
+                        <div className="d-flex justify-content-between">
+                            <INPUTcheckbox style={subInput} label={label}/>
+                            <FORGOTpassword style={subInput}/>
+                        </div>
                     </div>
 
                     <div className="mt-4">

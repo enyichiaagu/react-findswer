@@ -52,15 +52,17 @@ export const INPUTusername = ( {
         }) => {
         return ( 
             <React.Fragment>                        
+               <div className="login-username-wrapper">
                 <i className="fas fa-user input-prefix" style={txtInput} />
-                <input 
-                    ref={register}
-                    name="username"
-                    type="text" 
-                    id="username" 
-                    className="form-control"
-                    autoComplete="off" />   
-                <label htmlFor="username" style={txtInput}>Username or Phone</label>
+                    <input 
+                        ref={register}
+                        name="username"
+                        type="text" 
+                        id="username" 
+                        className="form-control"
+                        autoComplete="off" />   
+                    <label htmlFor="username" style={txtInput}>Username or Phone</label>
+               </div>
             </React.Fragment>
         );
 }
@@ -71,15 +73,15 @@ export const INPUTpassword = ( {
         }) => {
         return ( 
             <React.Fragment>
+                <div className="login-password-wrapper">
                 <div 
-                onClick={prev}
-                className={`${buttonStyle.btnGoBack} , d-flex position-absolute`}>
+                    onClick={prev}
+                    className={`${buttonStyle.btnGoBack} , d-flex position-absolute`}>
                     <i className="fas fa-arrow-left mr-2" style={{ marginTop:"-25px"}} /> 
                     <span style={{marginTop:"-30px"}}>Go back</span>
                 </div>
 
                 <i className="fas fa-key input-prefix" style={txtInput} />
-                <div>
                     <input 
                         ref={register}
                         name="password"
@@ -123,11 +125,13 @@ export const FORGOTpassword = ({ style: subInput}) => {
 export const LOGINheader = () => {
     return ( 
         <React.Fragment>
+           <div className="login-header-wrapper">
             <div className="d-flex justify-content-center ">
-                <div>                
-                    <img srcSet="temp_header_2.png" alt="Login_header" style={{width: "350px"}}/>
+                    <div>                
+                        <img srcSet="temp_header_2.png" alt="Login_header" style={{width: "350px"}}/>
+                    </div>
                 </div>
-            </div>
+           </div>
             {/* <span>
                 <h1 style={{color: "#ccc"}}>FIND<span className="font-weight-bold">SWER</span></h1>
                 <h5 style={{color: "#ccc", marginTop: "-10px"}}> 

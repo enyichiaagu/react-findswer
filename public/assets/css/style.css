@@ -6,10 +6,25 @@
     color: #fff;
 }
 
-.my-element {
-    display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
-  }
+.login-wrapper {
+    animation: fadeIn;
+    animation-duration: 2s; 
+}
+/* .login-header-wrapper {
+    animation: slideInLeft; 
+    animation-duration: 1s; 
+} */
+.login-password-wrapper {
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.login-username-wrapper { 
+    animation: fadeIn; 
+    animation-duration: 1s; 
+} 
+
+/* .login-option-wapper {
+    animation: slideInLeft; 
+    animation-duration: 0.8s; 
+} */
