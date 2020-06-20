@@ -1,1 +1,0 @@
-{"version":3,"sources":["button.module.css"],"names":[],"mappings":"AAAA,yBACI,UAAW,CACX,cAAe,CACf,kBACJ,CACA,+BACI,UAAc,CACd,kBACJ","file":"main.d330e00e.chunk.css","sourcesContent":[".btnGoBack {\r\n    color: #ccc;\r\n    cursor: pointer;\r\n    transition: all 0.3s;\r\n}\r\n.btnGoBack:hover {\r\n    color: #3399ff;\r\n    transition: all 0.3s;\r\n}"]}
