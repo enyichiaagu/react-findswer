@@ -6,8 +6,8 @@ const Route = () => {
     return ( 
         <React.Fragment>
             <Switch>
-                <RoutePath exact path="/" component={Home} />
-                <RoutePath exact path="/login" component={Login} />
+                <RoutePath exact path='/'  component={Home} />
+                <RoutePath exact path='/login'component={Login} />
             </Switch>
         </React.Fragment>
      );
