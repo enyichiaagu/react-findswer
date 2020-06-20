@@ -7,7 +7,7 @@ import './assets/root_css/css/bootstrap.css';
 import './assets/root_css/css/mdb.css';
 ReactDOM.render(
   <React.StrictMode>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
           <App />
       </Router>
   </React.StrictMode>,
