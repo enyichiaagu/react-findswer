@@ -29,7 +29,8 @@ export const darkTheme = {
     btnBackground:  '#f50057 ',
     btnBorder: '#f50057',
     btnColor: '#f50057 !important',
-    
+    btnTxtColor:  '#ccc',
+
     //Input
     inputTxt: '#f50057',
 

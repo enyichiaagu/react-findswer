@@ -55,6 +55,7 @@ export const GlobalStyles = createGlobalStyle`
       background-color: transparent !important;
       border: 2px solid ${({ theme }) => theme.btnBorder} !important
   }
+  
   .btn-outline-default:not([disabled]):not(.disabled):active,
   .btn-outline-default:not([disabled]):not(.disabled).active,
   .show>.btn-outline-default.dropdown-toggle {
