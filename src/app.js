@@ -5,7 +5,7 @@ import { lightTheme, darkTheme } from './assets/theme/theme';
 import { GlobalStyles } from './assets/theme/global';
 import Route from './route/Route';
 
-function App({children}) {
+function App() {
 
     const [theme, setTheme] = useState('light');
     const toggleTheme = () => {

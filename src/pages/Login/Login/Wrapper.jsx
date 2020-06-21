@@ -6,7 +6,7 @@ export const Wrapper = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col"></div>
-                    <div className="col-md-5">
+                    <div className="col-md-4">
                         {props.children}
                     </div>
                     <div className="col"></div>
