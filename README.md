@@ -8,6 +8,6 @@ Developed by Madridano
 
 <h1>Production updates</h1>
 <ul>
-    <li>June 20, 2020 11:33PM FRIDAY https://baekdusan.github.io/react-findswer/#/login</li>
+    <li>June 20, 2020 11:33PM FRIDAY https://baekdusan.github.io/react-findswer/#/</li>
 </ul>
 
